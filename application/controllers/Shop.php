@@ -19,5 +19,7 @@ class Shop extends CI_Controller{
 		$test = $this->User->getUser();
 		
 		var_dump($test);
+
+		$this->load->view('shop');
 	}
 }
